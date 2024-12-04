@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformador - Labiomass</title>
+    <link rel="stylesheet" href="src/styles.css">
+    
+</head>
+<header>
+    <nav id="navbar">
+        <img id="navbar-logo" src="src/assets/logo-labiomass.jpg" alt="logo do laboratório labiomass">
+    </nav>
+</header>
+
+<body>
+    <h1>LabiomassWF</h1>
+    <section id="transformador">
+        <h2>Transforme seu arquivo com poucos cliques</h2>
+        <section id="transformador-inner_section">
+            <form id="transformador-form" action="/upload" method="post" enctype="multipart/form-data">
+                <label for="fileInput">Faça upload do seu arquivo ".csv":</label>
+                <input type="file" id="fileInput" name="arquivo" required>
+                <button class="btn_default" type="submit">Transformar</button>
+            </form>
+        </section>
+    </section>
+</body>
+
+<footer id="rodape">
+    <h3>Contatos</h3>
+    <ul id="footer_list">
+        <li class="footer_list-item">
+            <i id="icone_insta" class="fab fa-instagram"></i>
+            <a id="link-insta" href="https://www.instagram.com/labiomass/" target="_blank">@labiomass</a>
+        </li>
+        <li class="footer_list-item">epilau@uem.br</li>
+        <li class="footer_list-item">gustavoribeiromontes@gmail.com</li>
+    </ul>
+
+</footer>
+</html>
